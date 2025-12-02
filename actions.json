@@ -1,0 +1,42 @@
+{
+  "delay": {
+       "patterns": [
+           "delay",
+           "late",
+           "status",
+           "predict"
+        ],
+        "responses": [
+            "Happy to help with your live delay checking"
+        ],
+        "parameters":
+        [ "start_loc",
+          "end_loc",
+          "initial_delay",
+          "planned_arrival",
+          "actual_departure"
+        ]
+    },
+    "cheapest": {
+       "patterns": ["book", "ticket", "cheapest", "buy"],
+        "responses": [
+            "Happy to help with your live delay checking"
+        ],
+       "parameters": [
+        "start_loc",
+        "end_loc",
+        "min",
+        "day",
+        "month",
+        "year",
+        "num_of_adult_passenger",
+        "num_of_child_passenger",
+        "railcard",
+        "return_hour",
+        "return_min",
+        "return_day",
+        "return_month",
+        "return_year"
+      ]
+    }
+}
