@@ -1,4 +1,4 @@
-# AI-CW2
+# PredictiveModeling
 
 # Installation/setup
 - make a venv
